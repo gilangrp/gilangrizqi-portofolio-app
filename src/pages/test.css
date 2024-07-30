@@ -1,0 +1,29 @@
+.hidden {
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+}
+.fadeinModal {
+    animation: fadeinRight 0.5s ;
+
+}
+@keyframes fadeinRight {
+    from {
+        right: 100%;
+        filter: blur(10px);
+    }
+    to {
+        right: 0%;
+        filter: blur(0);
+    }
+}
+@keyframes fadeoutRight {
+    from {
+        right: 0%;
+    }
+    to {
+        right: 100%;
+    }
+}

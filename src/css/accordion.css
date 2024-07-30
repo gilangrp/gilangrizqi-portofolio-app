@@ -1,0 +1,9 @@
+.accordion {
+    box-shadow: 0px 11px 31px -6px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 0px 11px 31px -6px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0px 11px 31px -6px rgba(0,0,0,0.14);
+}
+.accordion:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
