@@ -56,14 +56,15 @@ function Accordion() {
           sm:text-[16px] md:text-[18px]
           '>
             <li>Good Knowledge in HTML, CSS, and JavaScript.</li>
-            <li>Slicing UI to HTML pages.</li>
-            <li>Experience with Front-End frameworks like ReactJS, NextJS.</li>
-            <li>Experience with Laravel as Back-End frameworks.</li>
+            <li>Slicing UI to pages.</li>
+            <li>Experience with Front-End frameworks like React.js, Next.js.</li>
+            <li>Experience with Back-End frameworks such as ASP.NET, Laravel.</li>
             <li>Experience with TailwindCSS and Bootstrap as CSS libraries.</li>
-            <li>Database MySQL, MongoDB and data state management.</li>
+            <li>Experience with Mobile frameworks such as Flutter, React Native.</li>
+            <li>Database MySQL, MongoDB, AWS S3, AWS Amplify.</li>
             <li>Understanding of responsive design concepts web development.</li>
             <li>Testing and debugging error.</li>
-            <li>Control system work with Git, Github, Gitlab.</li>
+            <li>Control system work with Github, Gitlab.</li>
           </ul>
         </div>
       </div>
@@ -112,7 +113,7 @@ function Accordion() {
           <ul className='px-10 py-4 text-[10px] flex flex-col list-disc
           sm:text-[16px] md:text-[18px]
           '>
-            <li>UI Design and protoyping with Figma, AdobeXD.</li>
+            <li>UI Design and protoyping with Figma.</li>
             <li>Understanding create wireframes or layout sketches of pages</li>
             <li>Design application user interface in responsive</li>
             <li>Knowledge typography and select good font to readibility</li>

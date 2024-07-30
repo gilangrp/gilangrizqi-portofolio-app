@@ -10,12 +10,11 @@ import Gilang from '../assets/gilang-crop.jpg'
 import Stepper from '../components/Stepper';''
 import StepperEdu from '../components/StepperEdu';
 // Assets
-import CV from '../assets/CV_FRONTEND_ENGLISH_GILANG.pdf'
+import CV from '../assets/CV GILANG RIZKI PRATAMA.pdf'
 import Pizzeria1 from '../assets/pizzeria/1.jpg'
 import Pizzeria2 from '../assets/pizzeria/2.jpg'
 import Pizzeria3 from '../assets/pizzeria/3.png'
-import Laundry1 from '../assets/laundry/laundry1.png'
-import Laundry2 from '../assets/laundry/laundry2.png'
+import Greenomina from '../assets/greenomina/greenomina.png'
 import { faThumbTack } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -80,7 +79,8 @@ function Home() {
       <div ref={linkHomeRef} className=' min-h-screen w-full flex justify-center items-center relative '>
         <div className=' text-center'>
           <h1 className='myName sm:text-[73px] md:text-[90px] lg:text-[120px]'>I'm Gilang Rizqi.</h1>
-          <h1 className=' text-sm sm:text-xl md:text-2xl lg:text-3xl'>website developer as programmer front-end and back-end
+          <h1 className=' text-sm sm:text-xl md:text-2xl lg:text-3xl'>
+            software engineer as fullstack developer
             <br />also as UI/UX designer.
           </h1>
           <button className='ctaBtn bg-yellows p-3 text-lg rounded-xl px-6 mt-5'>I Want to Know</button>
@@ -113,14 +113,11 @@ function Home() {
             </div>
 
             <div data-aos='fade-left' className='flex flex-col w-[260px] mt-10 pb-5 md:w-[300px] lg:w-[500px]'>
-              <h1 className=' text-justify text-sm md:text-[17px] lg:text-[20px]'>Website programmer with expertise in various programming
-                languages such as HTML, CSS, JavaScript, Golang, and PHP.
-                I have experience in both front-end and back-end development
-                using frameworks like ReactJS, NextJS, Node.js, Laravel. <br /><br />
-
-                I am always enthusiastic about creating amazing user experiences with
-                aesthetic designs and intuitive interactions. Being responsive and
-                mobile-friendly is a priority in every project I handle.<br /><br />
+              <h1 className=' text-justify text-sm md:text-[17px] lg:text-[20px]'>Software engineer with a strong 
+              passion for technology and development. I have developed a solid expertise in designing and
+               building both web and mobile applications. I am known for my collaborative approach, 
+               innovative mindset, and problem-solving abilities, consistently striving to deliver 
+               effective and creative solutions. <br /><br />
 
                 Thank you for the opportunity to share about myself as a website
                 programmer. I am ready to deliver exciting and functional projects for you!
@@ -130,8 +127,7 @@ function Home() {
                   <button className='btnDownload bg-yellows px-3 py-2 rounded-2xl text-sm'>Download CV</button>
                 </a>
                 <div className=' flex relative left-7 gap-6 font-bold'>
-                  <h1 className=' text-center'>3+ <br /> Years</h1>
-                  <h1 className=' text-center'>5+ <br /> Client</h1>
+                  <h1 className=' text-center'>1+ <br /> Years</h1>
                 </div>
               </div>
 
@@ -196,17 +192,16 @@ function Home() {
         '>
           <div className='portfolio-text'>
             <FontAwesomeIcon icon={faThumbTack} className=' text-[20px] lg:text-[25px]' />
-            <h1 className=' text-xl sm:text-4xl lg:text-3xl'>Foodie Mart</h1>
-            <h1 className=' text-md sm:text-lg lg:text-xl'>Fullstack Developer | 2022</h1> <br />
+            <h1 className=' text-xl sm:text-4xl lg:text-3xl'>Pertamina - Greenomina</h1>
+            <h1 className=' text-md sm:text-lg lg:text-xl'>PT. Rekabio | 2023</h1> <br />
             <div className=' text-[16px] sm:text-[20px] lg:text-[22px]'>
-            <h1>Slicing UI to HTML pages.</h1>
-            <h1>Develop backend with PHP language.</h1>
-            <h1>Access and connect to database.</h1>
+            <h1>Develop frontend system with Next.js.</h1>
+            <h1>Develop mobile application using Flutter.</h1>
+            <h1>Integration with AWS S3, AWS Amplify.</h1>
             </div>
           </div>
           <div className='portfolio-image mt-7 relative left-10 overflow-hidden lg:w-[400px] '>
-            <img src={Laundry1} className=' relative left-10'   />
-            <img src={Laundry2} className=' relative bottom-20 left-4 sm:bottom-44 lg:bottom-28' />
+            <img src={Greenomina} className=' relative left-10'   />
             
           </div>
         </div>        

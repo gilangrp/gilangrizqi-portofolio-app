@@ -16,7 +16,7 @@ function StepperEdu() {
                     <div className="content">
                         <h1>Indonesia University of Education</h1>
                         <h1 className=' text-gray-500 italic'>Software Engineering</h1>
-                        <h1 className=' text-gray-500 italic'>2022</h1>
+                        <h1 className=' text-gray-500 italic'>2023</h1>
                     </div>
                 </div>
 

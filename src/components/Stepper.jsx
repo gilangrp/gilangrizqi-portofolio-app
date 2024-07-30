@@ -15,12 +15,12 @@ function Stepper() {
                     </div>
 
                     <div className="content">
-                        <h1>Daarut Tauhiid Peduli</h1>
+                        <h1>PT. Rekabio</h1>
                         <h1>
                             <FontAwesomeIcon icon={faMapPin} className=' pr-2' />
                             Indonesia, South Tangerang City</h1>
-                        <h1 className=' text-gray-500 italic'>Front End Developer</h1>
-                        <h1 className=' text-gray-500 italic'>2022 - 2023</h1>
+                        <h1 className=' text-gray-500 italic'>Fullstack Developer</h1>
+                        <h1 className=' text-gray-500 italic'>November 2023 - July 2024</h1>
                     </div>
                 </div>
 
